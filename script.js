@@ -1,4 +1,7 @@
 function findLargest(a, b, c) {
+	a = +a;
+	b = +b;
+	c = +c
   //your code here
 	return Math.max(a,b,c)
 }
